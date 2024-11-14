@@ -69,7 +69,6 @@
 
 
 ## 🥕요구사항정의서🥕
-[토닥토닥 요구사항정의](https://github.com/user-attachments/files/16960875/-.1.pdf)<br>
 🐶
 [토닥토닥 요구사항정의 링크](https://docs.google.com/spreadsheets/d/1cADwkU7hRr3ORXeoPF6agGtAuPji-jDmKSRgDJrVxoQ/edit?usp=sharing)
 

@@ -1,7 +1,7 @@
-# 🏥 기획서
-## 토닥토닥 : 실시간 소아과 진료 예약 및 비대면 진료 서비스
+# 🏥 토닥토닥 : 실시간 소아과 진료 예약 및 비대면 진료 서비스
+## 🥇 한화시스템 BEYOND SW CAMP 7기 최종프로젝트 1위 수상
 <div align="center">
-  <img src="https://github.com/user-attachments/assets/6e4d7206-54bf-4e23-bfbe-d9cc78e7c1d3" alt="logo" width="450">
+  <img src="https://github.com/user-attachments/assets/1b5d868d-18e1-409a-9982-6cd884468646" >
 </div>
 
 ## 팀원
@@ -27,8 +27,16 @@
   <th> BE,FE </th>
 </table>
 
+## 발표자료
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/6e4d7206-54bf-4e23-bfbe-d9cc78e7c1d3" alt="logo" width="450">
 
-### 1. **문제 정의**
+  [📢 토닥토닥 발표자료 링크](https://www.canva.com/design/DAGQctfurOA/km0Va6bqgOX2Gg60xckVyg/view?utm_content=DAGQctfurOA&utm_campaign=share_your_design&utm_medium=link&utm_source=shareyourdesignpanel)
+</div>
+
+
+
+## 1. **문제 정의**
 
 ### 1.1 저출산과 소아청소년과 폐지의 악순환
 
@@ -78,7 +86,7 @@
 [이슈관리테이블](https://www.notion.so/1519ac23d39542d0a648795a5c53172b?v=7cc0480300c34da38907a02f9bcb67e1&pvs=4)
 
 ## ERD
-### 전체 ERD
+### 전체 ERD (MSA 아키텍처)
 <img width="1152" alt="image" src="https://github.com/user-attachments/assets/f388118d-3462-4ab9-b568-b79753410e4e">
 
 <details>
@@ -131,15 +139,18 @@
 </details>
 <details>
   <summary> WebSocket, STOMP, Kafka : CS채팅 </summary>
+  <h3>일반회원 채팅</h3>
   <img src="https://github.com/user-attachments/assets/01dffb84-9210-4482-9aff-5e013df7086f">
+  <h3>서비스운영팀 채팅</h3>
+  <img src="https://github.com/user-attachments/assets/d560a233-8fac-4ecf-b194-7e330b675337">
 </details>
 <details>
-  <summary> fullCalendar : 자녀 공유 캘린더 </summary>
-  <img src="https://github.com/user-attachments/assets/b3efc9ce-ec1e-4e2f-9043-d33e1cbc327a">
+  <summary> FullCalendar : 자녀 공유 캘린더 </summary>
+  <img src="https://github.com/user-attachments/assets/8b6dc540-da7f-4c41-9a43-2d708c4486f0">
 </details>
 <details>
-  <summary> firebase RealTimeDB : 실시간 대기인원 확인</summary>
-  <img src="https://github.com/user-attachments/assets/93109ee0-859a-40be-9792-27e515520a6f">
+  <summary> Firebase RealTimeDB : 실시간 대기인원 확인</summary>
+  <img src="https://github.com/user-attachments/assets/aafb85d8-d523-4537-8518-b725869c5e8e">
 </details>
 <details>
   <summary> FCM :웹 푸시 알림</summary>
@@ -149,7 +160,7 @@
   <img src="">
 </details>
 <details>
-  <summary> Prometheus, Grafana를 이용한 모니터링 서비스</summary>
+  <summary> Prometheus, Grafana : 모니터링 서비스</summary>
   <img src="https://github.com/user-attachments/assets/12e1504f-eb22-4de5-9892-4935e392a065"> 
 </details>
 
@@ -214,17 +225,23 @@
 ## 프로젝트 시연
 <details>
   <summary> 메인페이지</summary>
-  <img src="https://github.com/user-attachments/assets/49702ad3-046e-4f39-bd78-30e26859df8e">
+  <img src="https://github.com/user-attachments/assets/0acddd87-a24c-4a11-98ac-344a3287763d">
 </details>
 
 <details>
   <summary> 병원 도입 신청 페이지</summary>
-  <img src="https://github.com/user-attachments/assets/fa627648-8017-4e9a-b0c3-8ce699212db2">
+  <img src="https://github.com/user-attachments/assets/e3e72813-eef7-4f2c-8c53-19a85a4e1cdb">
 </details>
 
 <details>
-  <summary> 페이지 로딩 모달</summary>
-  <img src="https://github.com/user-attachments/assets/eca68ad7-badd-4b2b-aa3f-b17885c17659">
+  <summary> 서비스 운영팀 대시보드</summary>
+
+  - 제휴병원 관리 (가입승인, 정기 구독료 관리)
+
+  - 일반회원 관리 (CS채팅 고객상담, 신고내역 관리)
+
+  - 데이터 시각화 (신규회원 유입추이, 권한 별 회원비율 등)
+  <img src="https://github.com/user-attachments/assets/1c60035b-3752-4952-9630-ea401e2179c1">
 </details>
 
 ### 일반 유저
@@ -276,9 +293,13 @@
 
 <details>
   <summary>공유 캘린더 조회</summary>
-  <img src="https://github.com/user-attachments/assets/b3efc9ce-ec1e-4e2f-9043-d33e1cbc327a">
+  <img src="https://github.com/user-attachments/assets/8b6dc540-da7f-4c41-9a43-2d708c4486f0">
 </details>
 
+<details>
+  <summary>자녀 별 공유 캘린더 : 다른자녀 선택</summary>
+  <img src="https://github.com/user-attachments/assets/1499daf1-6ee1-4411-9aae-16ca5b254991">
+</details>
 
 <details>
   <summary>공유 캘린더 일정 저장 </summary>
@@ -319,6 +340,17 @@
 
 ### 🏥 진료 예약
 
+### 소아과 병원리스트
+<details>
+  <summary> 사용자 위치기반 병원조회 로딩</summary>
+  <img src="https://github.com/user-attachments/assets/eca68ad7-badd-4b2b-aa3f-b17885c17659">
+</details>
+
+<details>
+  <summary> 사용자 위치기반 행정동 기준 병원리스트 조회</summary>
+  <img src="https://github.com/user-attachments/assets/ae096b16-225c-4db5-8373-430a9b0e14a3">
+</details>
+
 #### - 바로 대기 -
 
 <details>
@@ -333,7 +365,7 @@
 
 <details>
 <summary> 바로 대기 - 실시간 대기인원 확인</summary>
-<img src="https://github.com/user-attachments/assets/f663ee2e-019b-4cae-afe1-d781c457e29f">
+<img src="https://github.com/user-attachments/assets/685673bf-f3ca-400a-baa2-b22b5fa09288">
 
 </details>
 
@@ -350,6 +382,12 @@
 </details>
 
 #### - 비대면 진료 -
+
+<details>
+  <summary>비대면 진료 - 의사리스트 조회</summary>
+  오늘 비대면진료 가능한 의사리스트 조회 (진료 중, 별점 순, 리뷰 순 필터링 가능)
+  <img src="https://github.com/user-attachments/assets/84b59f72-9e3c-421f-99d4-fcfe44503dbb">
+</details>
 
 <details>
   <summary>비대면 진료 - 접수</summary>
@@ -414,10 +452,29 @@
   <img src="https://github.com/user-attachments/assets/04ac711c-e8fd-4037-ba88-0b6e3844fb5f">
 </details>
 
-### 💬 CS 채팅
+### 💬 CS 채팅상담
 <details>
-  <summary>CS 채팅</summary>
+  <summary>CS 채팅 : 일반 회원채팅</summary>
   <img src="https://github.com/user-attachments/assets/01dffb84-9210-4482-9aff-5e013df7086f">
+</details>
+
+<details>
+  <summary>CS 채팅 : 서비스운영팀 채팅</summary>
+  <img src="https://github.com/user-attachments/assets/d560a233-8fac-4ecf-b194-7e330b675337">
+</details>
+
+<details>
+  <summary>CS 채팅 : 서비스운영팀 상담내역 기록</summary>
+  <img src="https://github.com/user-attachments/assets/c3c4e89a-2123-46a3-b201-310bf00edfe6">
+</details>
+
+<details>
+  <summary>CS 채팅 : 서비스운영팀 회원 별 CS내역 조회</summary>
+  
+  - 회원 별로 CS 내역 리스트 조회
+
+  - CS 내역 클릭 시 해당 CS 내역이 기록된 채팅방으로 이동
+  <img src="https://github.com/user-attachments/assets/3edebc7c-ec2b-41bd-a582-8bdc545d3e8c">
 </details>
 
 ### 👥 커뮤니티
@@ -655,7 +712,18 @@
 </details>
 
 ### 👩‍⚕️🧑‍⚕️👩‍⚕️👨‍⚕️👩‍⚕
-### ️파닥 관리자
+### ️todak서비스 운영팀 
+
+<details>
+  <summary> 서비스 운영팀 대시보드</summary>
+
+  - 제휴병원 관리 (가입승인, 정기 구독료 관리)
+
+  - 일반회원 관리 (CS채팅 고객상담, 신고내역 관리)
+
+  - 데이터 시각화 (신규회원 유입추이, 권한 별 회원비율 등)
+  <img src="https://github.com/user-attachments/assets/1c60035b-3752-4952-9630-ea401e2179c1">
+</details>
 
 <details>
   <summary>관리자 로그인</summary>
